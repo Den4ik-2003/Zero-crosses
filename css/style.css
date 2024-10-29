@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----- First Screen ----- */
+
+body {
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 1px 4px rgba(255, 0, 255, 0.82);
+    margin-top: 25%;
+    margin-bottom: 2%;
+}
+
+.firstScreen {
+    text-align: center;
+}
+
+button {
+    padding: 20px 30px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+  }
+  
+  #btn:hover,
+  :focus {
+    color: #ffffff;
+    background-color: #ff00ffd1;
+    border: 1px solid #ff00ffd1;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ff00ffd1, 0 0 20px #ff00ffd1, 0 0 50px #ff00ffd1,
+      0 0 100px #ff00ffd1;
+  }
+  
